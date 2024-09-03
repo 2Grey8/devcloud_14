@@ -1,0 +1,179 @@
+.footer{
+  width: 192rem;
+
+  &__inner{
+    width: 140rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6.5rem;
+    padding-bottom: 9rem;
+
+    @include respond(phone){
+      width: 60rem;
+    }
+
+    @include respond(port){
+      width: 90rem;
+    }
+
+    @include respond(land){
+      width: 120rem;
+    }
+  }
+
+  &__box{
+    display: block;
+    width: 32.5rem;
+    text-align: left;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 171.18%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+
+    span{
+      padding-left: 3rem;
+    }
+  }
+
+  &__logo{
+    display: block;
+    width: 27rem;
+    height: 5.2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__navigation{
+    width: 80rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list{
+    display: block;
+    width: 20rem;
+    text-align: left;
+    list-style: none;
+
+    &_1{
+      margin-right: 7rem;
+    }
+
+    &_1 li{
+      margin-bottom: .4rem;
+    }
+
+    &_2 li,
+    &_3 li{
+      display: block;
+      margin-bottom: 1.7rem;
+    }
+  }
+
+  &__item{
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 184.68%;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: #000000;
+
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+
+    &_1{
+      display: block;
+      text-align: left;
+      position: relative;
+
+      &::before{
+        content: "";
+        display: block;
+        width: 27px;
+        height: 28.16px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/tel.png);
+        position: absolute;
+        top: 2rem;
+        left: -4rem;
+      }
+
+      span{
+        display: block;
+      }
+    }
+
+    &_2{
+      display: block;
+      position: relative;
+
+      &::before{
+        content: "";
+        display: block;
+        width: 26px;
+        height: 22.94px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/mail.png);
+        position: absolute;
+        top: .4rem;
+        left: -4rem;
+      }
+    }
+
+    &_3{
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+
+      font-family: Open "Sans";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 171.18%;
+      letter-spacing: 0.015em;
+      text-transform: uppercase;
+      color: #000000;
+
+      &::before{
+        content: "";
+        display: block;
+        width: 23.3px;
+        height: 23.3px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/whatsUp.png);
+        position: absolute;
+        top: .4rem;
+        left: -4rem;
+      }
+
+      &::after{
+        content: "";
+        display: block;
+        width: 23.7px;
+        height: 24.5px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/telegramm.png);
+        position: absolute;
+        top: .4rem;
+        left: 9rem;
+      }
+
+      span{
+        display: block;
+      }
+    }
+  }
+}

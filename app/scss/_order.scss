@@ -1,0 +1,235 @@
+.order{
+  width: 192rem;
+
+  &__inner{
+    width: 145rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(2, 123, 102, 0.1);
+
+    @include respond(phone){
+      width: 60rem;
+      margin: 0 auto;
+      display: block;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      margin: 0 auto;
+      display: block;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  &__box{
+    display: block;
+    width: 69.2rem;
+    margin: 0 auto;
+
+    &-title{
+      display: block;
+      width: 17.4rem;
+      margin: 0 auto;
+      margin-top: 19rem;
+      margin-bottom: .5rem;
+      position: relative;
+
+      &::before{
+        content: "";
+        width: 100px;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/img.png);
+        position: absolute;
+        top: -12rem;
+        left: 3rem;
+      }
+    }
+
+    &-subtitle{
+      display: block;
+      width: 22.6rem;
+      margin: 0 auto;
+      margin-bottom: 2.8rem;
+    }
+
+    &-text{
+      display: block;
+      width: 41.9rem;
+      margin: 0 auto;
+      margin-bottom: 5.3rem;
+    }
+
+    &-img{
+      display: block;
+      width: 166px;
+      height: 25px;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+    }
+
+    &-date{
+      width: 66px;
+      margin: 0 auto;
+
+      font-family: Open "Sans";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: 0.025em;
+      color: #6C6C6C;
+    }
+  }
+
+  &__form{
+    display: block;
+    width: 90.8rem;
+    padding-top: 7.5rem;
+    padding-bottom: 7rem;
+    background: linear-gradient(243.89deg,
+    #25BA9F 2.05%, #1B7F6D 52.81%, #157161 75.54%, #09463B 101.06%);
+    position: relative;
+
+    @include respond(phone){
+      width: 60rem;
+    }
+
+    @include respond(port){
+      width: 90rem;
+    }
+
+    @include respond(land){
+      width: 120rem;
+    }
+
+    &-title{
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 3rem;
+      text-align: center;
+
+      font-family: Open "Sans";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 49px;
+      text-align: center;
+      letter-spacing: 0.045em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+
+    &-input{
+      display: inline-block;
+      height: 3rem;
+      margin: 0 auto;
+      margin-bottom: 6rem;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #FFFFFF;
+      background: transparent;
+
+      @include respond(phone){
+        display: block;
+      }
+
+      @include respond(port){
+        display: block;
+      }
+
+      @include respond(land){
+        display: block;
+      }
+
+      font-family: Open "Sans";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.025em;
+      color: rgba(255, 255, 255, 0.46);
+
+
+      &::placeholder{
+        padding-left: 2rem;
+        color: rgba(255, 255, 255, 0.46);
+      }
+
+      &_1{
+        display: block;
+        width: 64.8rem;
+        margin-bottom: 7rem;
+      }
+
+      &_2{
+        width: 289px;
+        margin-right: 6rem;
+      }
+
+      &_3{
+        width: 297px;
+      }
+    }
+
+    &-textarea{
+      background: transparent;
+      outline: none;
+      border: 1px solid #FFFFFF;
+      border-radius: 1.3rem;
+
+      font-family: Open "Sans";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.025em;
+      color: rgba(255, 255, 255, 0.46);
+
+      @include respond(phone){
+        width: 60rem;
+      }
+
+      @include respond(port){
+        width: 90rem;
+      }
+
+      @include respond(land){
+        width: 120rem;
+      }
+
+      &::placeholder{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        color: rgba(255, 255, 255, 0.46);
+      }
+    }
+
+    &-img{
+      width: 3.8rem;
+      height: 3.8rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+
+
+      &_1{
+        top: 49.5rem;
+        left: 68rem;
+      }
+
+      &_2{
+        top: 49.5rem;
+        left: 73rem;
+      }
+    }
+  }
+}

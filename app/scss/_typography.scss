@@ -1,0 +1,111 @@
+.header{
+  &__item{
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+  }
+}
+
+.portfolio{
+  &__title{
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 0.025em;
+    color: #fff;
+  }
+
+  &__text{
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 153.18%;
+    letter-spacing: -0.015em;
+    color: #fff;
+  }
+
+  &__btn{
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+}
+
+.order{
+  &__box-title{
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 182.68%;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &__box-subtitle{
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    color: #000000;
+  }
+
+  &__box-text{
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.025em;
+    color: #000000;
+  }
+
+  &__form-title{
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+
+.footer{
+  &__box{
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 171.18%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &__item{
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 184.68%;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+}

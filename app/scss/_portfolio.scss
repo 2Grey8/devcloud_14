@@ -1,0 +1,96 @@
+.portfolio{
+  width: 192rem;
+
+  &__inner{
+    width: 145rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @include respond(phone){
+      width: 60rem;
+      margin: 0 auto;
+      margin-top: 3rem;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      margin: 0 auto;
+      margin-top: 3rem;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      margin: 0 auto;
+      margin-top: 3rem;
+    }
+  }
+
+  &__group{
+    display: block;
+    width: 71rem;
+    margin-bottom: 3rem;
+    position: relative;
+
+    @include respond(phone){
+      width: 60rem;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__img{
+    display: block;
+    width: 100%;
+    height: 36.2rem;
+  }
+
+  &__box{
+    display: block;
+    width: 34rem;
+    height: 36.2rem;
+    margin: 0 auto;
+    padding-top: 3.6rem;
+    padding-bottom: 5.1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.81);
+    position: absolute;
+    top: 0rem;
+    left: 53%;
+  }
+
+  &__title{
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  &__text{
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  &__btn{
+    display: block;
+    width: 16rem;
+    margin-bottom: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-decoration: none;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px rgba(255, 255, 255, 0.47);
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%;
+
+  @include respond(phone){
+    font-size: 50%;
+  }
+
+  @include respond(port){
+    font-size: 50%;
+  }
+
+  @include respond(land){
+    font-size: 56.25%;
+  }
+
+  @include respond(desktop){
+    font-size: 87.5%;
+  }
+}
+
+body{
+  width: 192rem;
+  text-align: center;
+  box-sizing: border-box;
+}
